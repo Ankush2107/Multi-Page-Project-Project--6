@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+/* Creating navigation menu */
+.header-part {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/Images/mainBackground.png);
+    background-size: cover;
+    height: 1040px;
+    width: 100vw;
+}
+body {
+    background-color: #d7dada;
+}
+.nav-list {
+    background: transparent;
+}
+.header-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+.logo-head, .nav-list{
+    margin: 25px;
+}
+img[alt="logo-1"] {
+    scale: 0.8;
+    position: relative;
+    left: -50px;
+    cursor: pointer;
+}
+.nav-list ul{
+    display: flex;
+    align-items: center;
+}
+.nav-list ul li {
+    margin-right: 45px;
+    list-style: none;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.horizontal-divider {
+    height: 2px;
+    width: 1200px;
+    background-color: #fff;
+    margin-left: 140px;
+    position: relative;
+    top: -10px;
+}
+
+/* Creating main menu */
+.content h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 60px;
+    margin-top: 65px;
+    line-height: 80px;
+}
+.content-p p {
+    color: #fff;
+    margin-top: 40px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.btn-head button {
+    margin-top: 15px;
+    background-color: #6663e9;
+    border: none;
+    border-radius: 25px;
+    padding: 7px 20px;
+    color: #ffffff;
+    font-weight: 900;
+    cursor: pointer;
+}
+main .all-main {
+    margin-left: 180px;
+}
+
+/* Creating 5 Logos */
+.logo-5 {
+    background: transparent;
+    margin: 70px;
+    border-radius: 30px;
+    position: relative;
+    top: -140px;
+    left: 150px;
+    background-color: #ffffff;
+    padding: 60px 0;
+    width: 1050px;
+}
+img[alt="logo-l"] {
+    margin-left: 42px;
+}
+
+/* Creating House Card with their price */
+.houses div h3 {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: -120px;
+}
+.house-card-image {
+    height: 490px;
+    width: 490px;
+    border-radius: 25px;
+    margin: 15px;
+}
+.house-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+    height: 80px;
+    width: 450px;
+    border-radius: 12px;
+    position: relative;
+    top: -32px;
+    left: 36px;
+    padding: 20px 7px;
+}
+.house-info div p:first-child {
+    font-size: 20px;
+    font-style: none;
+    font-weight: 700;
+    margin-top: 6px;
+}
+.house-info div p:last-child {
+    color: #6663e9;
+    font-weight: 700;
+    font-style: none;
+    margin-top: 9px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 6px;
+}
+.house-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.house-btn button {
+    background-color: #6663e9;
+    border: none;
+    font-size: 12px;
+    border-radius: 85px;
+    padding: 15px 55px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 700;
+}
+.house-all-cards {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.house-row-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.house-row-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.house-row-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.house-2 {
+    margin-top: 70px;
+}
+.house-3 {
+    margin-top: 130px;
+}
+.house-row-2 {
+    margin-top: 40px;
+}
+.house-4 {
+    margin-top: 60px;
+}
+.house-6 {
+    margin-bottom: 60px;
+}
+.house-8 {
+    margin-top: 70px;
+}
+.house-9 {
+    margin-top: 130px;
+}
+
+/* Creating upper menu card Early bird offer */
+.home-upper-menu {
+    display: flex;
+    margin-top: 140px;
+}
+img[alt="featuresImage"] {
+    height: 508px;
+    width: 508px;
+    border-radius: 25px;    
+}
+.left-img {
+    position: absolute;
+    left: 137px;
+}
+.left-design {
+    position: relative;
+    top: 72px;
+}
+.right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+}
+.upper-content-h1 h1 {
+    font-weight: 700;
+    font-size: 50px;
+
+}
+.upper-content-h1 p {
+    font-size: 13px;
+    margin-top: 20px;
+}
+.upper-btn {
+    margin-top: 20px;
+}
+.upper-btn button {
+    background-color: #6663e9;
+    border-style: none;
+    position: relative;
+    left: -178px;
+    padding: 10px 20px;
+    border-radius: 85px;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.home-middle-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+img[alt="featureImage2"] {
+    height: 508px;
+    width: 508px;
+    border-radius: 25px;
+    margin-bottom: 90px;
+
+}
+.right-img {
+    position: absolute;
+    left: 874px;
+}
+.right-design {
+    margin-top: 115px;
+}
+.left-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+.middle-content-h1 h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+.middle-content-p p {
+    font-size: 13px;
+    margin-top: 20px;
+}
+.middle-btn button {
+    background-color: #6663e9;
+    border-style: none;
+    border-radius: 85px;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+/* Creating subscribe card */
+.subscribe-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6663e9;
+    color: #ffffff;
+    border-radius: 30px;
+    height: 350px;
+    width: 670px;
+    margin-left: 420px;
+}
+.subscribe-card .subscribe-p p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 35px;
+}
+.subscribe-input {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.subscribe-input input {
+    border-radius: 85px;
+    padding: 10px 55px;
+    border-style: none;
+    background-color: #4644b5;
+}
+.envolope {
+    position: absolute;
+    margin-left: 8px;
+    scale: 0.7;
+}
+.input-box {
+    display: flex;
+    align-items: center;
+}
+.subscribe-h1 h1 {
+    margin-top: 40px;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+    line-height: -25px;
+}
+.subscribe-btn button{
+    background-color: #ffffff;
+    color: #6663e9;
+    border-style: none; 
+    border-radius: 35px;
+    padding: 9px 19px;
+    font-size: 12px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* Creating footer of the website */
+.ending-layout{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.right-footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.location-list ul {
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo {
+    scale: 0.8;
+    position: relative;
+    left: -15px;
+    top: -15px;
+}
+img[alt="social-media-font"] {
+    scale: 0.5;
+}
+.social-media {
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.footer-info {
+    margin-left: 11px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.Location-list ul li{
+    list-style: none;
+    text-decoration: none;
+    font-style: none;
+    padding: 12px;
+    cursor: pointer;
+}
+.list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 800;
+    font-size: 20px;
+}
+.Location-list ul .list-item {
+    margin-bottom: 15px;
+}
+.contact-list  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact-list ul li {
+    list-style: none;
+    padding: 12px;
+}
+.list-item-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.legal-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.legal-list ul li {
+    list-style: none;
+    padding: 12px;
+}
+.list-item-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
